@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+}
+
+img {
+    /* position: absolute; */
+}
+
+.portal {
+    animation: rotateOpp 60s linear infinite;
+}
+
+.brick {
+    position: absolute;
+    width: 15%;
+    left: 43%;
+    top:43%;
+    /* animation: shrink 8s alternate ease-in-out; */
+    animation: shrink 8s alternate linear infinite;
+}
+
+@keyframes rotate {
+    0% {transform:rotateX(0deg);}
+    /* 50% {transform: rotateZ(150deg);} */
+    100% {transform: rotateZ(3000deg);}
+}
+
+@keyframes rotateOpp {
+    0% {transform:rotateX(0deg);}
+    /* 50% {transform: rotateZ(150deg);} */
+    100% {transform: rotateZ(-3000deg);}
+}
+
+@keyframes shrink {
+    0% {transform: scale(1) rotate(0deg);}
+    100% {transform: scale(0) rotate(360deg);}
+}
+
+@keyframes popDiv { 
+    0%   {transform: scale(1)  rotate(0deg);}
+    25%  {transform: scale(2) rotate(120deg);}
+    50%  {transform: scale(.5) rotate(240deg);}
+    100% {transform: scale(1) rotate(360deg);}
+}
