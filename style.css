@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    background: url("https://pyxis.nymag.com/v1/imgs/e9d/1f3/b597372347a09beca86aaf1b6253bf70fd-rick-and-morty.rsocial.w1200.jpg") no-repeat;
+    background-size:cover;
 }
 
 .container {
