@@ -1,0 +1,16 @@
+body {
+    height:100vh;
+    background: url("https://pyxis.nymag.com/v1/imgs/e9d/1f3/b597372347a09beca86aaf1b6253bf70fd-rick-and-morty.rsocial.w1200.jpg") no-repeat;
+    background-size:cover;
+}
+
+#maintitle{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-size:9rem;
+    outline:10px grey;
+    text-align: center;
+    
+    text-shadow: 10px 10px 10px rgb(92, 92, 92);
+}
