@@ -13,4 +13,5 @@ let posY =0;
 window.addEventListener("keydown",(e)=>{
     posY-=10;
     title.style.top = `${posY}px`;
+    
 });
