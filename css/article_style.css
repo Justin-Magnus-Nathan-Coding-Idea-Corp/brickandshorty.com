@@ -27,12 +27,16 @@ header h1 {
     
 }
 
+.navbar span {
+    margin: 0 3px;
+}
+
 
 
 header img {
     height: 5rem;
     margin-top: 1rem;
-    animation: portal-animation 2s infinite linear;
+    animation: portal-animation 4s infinite linear;
 }
 header img:hover {
     scale:2;
@@ -47,7 +51,7 @@ header img:hover {
     transform: scale(1.05) rotate(90deg);
  }
  50% {
-    transform: scale(0.95) rotate(180deg);
+    transform: scale(1.1) rotate(180deg);
  }
  75% {
     transform: scale(1.05) rotate(270deg);
