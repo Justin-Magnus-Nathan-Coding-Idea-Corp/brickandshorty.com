@@ -6,6 +6,16 @@
 body {
     background-color: grey;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: scale(0.1);
+    animation: zoom-in 1s forwards;
+}
+@keyframes zoom-in {
+    0% {
+        transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 header {
