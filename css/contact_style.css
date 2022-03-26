@@ -1,0 +1,24 @@
+body {
+    text-align:center;
+    margin:auto;
+    
+}
+.text {
+    background-color: aliceblue;
+    width: fit-content;
+    text-align:center;
+    margin:auto;
+    padding:7px;
+    border-radius:1%;
+}
+.form {
+    background-color: aliceblue;
+    width: fit-content;
+    text-align:center;
+    margin:auto;
+    border-radius: 5%;
+    padding: 12px
+}
+.hr {
+    width: 50px;
+}
